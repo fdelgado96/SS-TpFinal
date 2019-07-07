@@ -1,15 +1,26 @@
 package models;
 
-public class Car {
-    public int speed;
-    public int maxSpeed;
-    public double breakingProbability;
-    public int separationDistance;
+import java.util.Locale;
 
-    public Car(int speed, int maxSpeed, double breakingProbability, int separationDistance) {
-        this.speed = speed;
-        this.maxSpeed = maxSpeed;
-        this.breakingProbability = breakingProbability;
-        this.separationDistance = separationDistance;
+public class Car {
+    public int id;
+    public int velocity;
+    public int maxVelocity;
+    public double brakingProbability;
+    public int roadPosition;
+    public int nextVelocity;
+
+    public Car(int id, int velocity, int maxVelocity, double brakingProbability, int roadPosition) {
+        this.id = id;
+        this.velocity = velocity;
+        this.maxVelocity = maxVelocity;
+        this.brakingProbability = brakingProbability;
+        this.roadPosition = roadPosition;
     }
+
+    @Override
+    public String toString() {
+        return String.format(Locale.ENGLISH, "%d %d %.2f", id, roadPosition, 0.2);
+    }
+
 }
