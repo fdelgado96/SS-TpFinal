@@ -10,8 +10,8 @@ import java.util.stream.IntStream;
 
 public class Simulation {
 
-    private static int nCars = 100;
-    private static int roadLength = 100;
+    private static int nCars = 30;
+    private static int roadLength = 50;
     private static int initialVelocity = 0;
     private static int maxVelocity = 10;
 
@@ -24,9 +24,7 @@ public class Simulation {
     public static void main(String args[]) throws Exception{
         cars = new ArrayList<>(nCars);
 
-        IntStream.range(0, nCars).forEach(i -> {
-            cars.add(new Car(i, initialVelocity, maxVelocity, 0.05, i));
-        });
+        initCars();
 
         PrintWriter writer = new PrintWriter("data/" + roadLength + "_" + nCars + "_simulation.xyz");
 
@@ -39,6 +37,16 @@ public class Simulation {
 
             cars.forEach(Simulation::moveCar);
 
+            boolean carOverlap = cars.stream().anyMatch(car1 -> {
+                return cars.stream().anyMatch(car2 -> {
+                    return car1.id != car2.id && car1.roadPosition == car2.roadPosition;
+                });
+            });
+            System.out.println("carOverlap: " + carOverlap);
+            if(carOverlap){
+                return;
+            }
+
             simulationTime++;
             writeState(writer);
         }
@@ -46,8 +54,20 @@ public class Simulation {
         writer.close();
     }
 
+    private static void initCars(){
+        while (cars.size() < nCars) {
+            Car newCar = new Car(cars.size(), initialVelocity, maxVelocity, 0.05, cars.size());
+            boolean valid = cars.stream().parallel().allMatch(c -> c.roadPosition != newCar.roadPosition);
+
+            if (valid) {
+                cars.add(newCar);
+            }
+        }
+    }
+
     private static void moveCar(Car car){
         System.out.println("-------");
+        System.out.println("carId: " + car.id);
         System.out.println("initialPos: " + car.roadPosition);
         System.out.println("nextVelocity: " + car.nextVelocity);
         car.velocity = car.nextVelocity;
@@ -84,9 +104,11 @@ public class Simulation {
         }
 
         if(otherRoadPosition - roadPosition < 0) {
-            diffRoadPosition = roadLength - roadPosition + otherRoadPosition + 1;
+            diffRoadPosition = roadLength - (roadPosition + 1) + otherRoadPosition;
+            System.out.println("diff1: " + diffRoadPosition);
         } else {
-            diffRoadPosition = otherRoadPosition - roadPosition;
+            diffRoadPosition = otherRoadPosition - roadPosition - 1;
+            System.out.println("diff2: " + diffRoadPosition);
         }
 
         return Math.min(nextVelocity, diffRoadPosition);
