@@ -26,4 +26,8 @@ public class Car {
         return String.format(Locale.ENGLISH, "%d %d %d %d 0.2", id, lane, lanePosition, velocity);
     }
 
+    public String toCSVString() {
+        return String.format(Locale.ENGLISH, "%d,%d,%d,%d", id, lane, lanePosition, velocity);
+    }
+
 }
