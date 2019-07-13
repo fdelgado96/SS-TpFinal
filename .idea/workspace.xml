@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dbd47b5d-fa50-4662-8b8c-4698d2f92802" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/data/cars_1000_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_1000_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_100_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_100_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_150_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_150_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_200_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_200_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_250_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_250_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_300_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_300_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_350_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_350_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_400_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_400_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_450_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_450_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_500_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_500_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_50_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_50_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_550_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_550_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_600_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_600_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_650_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_650_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_700_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_700_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_750_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_750_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_800_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_800_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_850_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_850_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_900_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_900_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_950_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/cars_950_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.xyz" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/simulation/Simulation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Analisis/fundamental.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Automaton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Analisis/velocity_time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/models/Cell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>math.random</find>
+      <find>return car.lane + 1;</find>
+      <find>system</find>
+      <find>writeCSV</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/models/Automaton.java" />
+        <option value="$PROJECT_DIR$/src/models/Cell.java" />
+        <option value="$PROJECT_DIR$/src/models/Car.java" />
+        <option value="$PROJECT_DIR$/Analisis/fundamental.py" />
+        <option value="$PROJECT_DIR$/src/simulation/Simulation.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SS-TpFinal" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/projects/ss/SS-TpFinal" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Simulation">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Simulation" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="simulation.Simulation" />
+      <module name="SS-TpFinal" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="simulation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fundamental" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SS-TpFinal" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Analisis" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analisis/fundamental.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Simulation" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbd47b5d-fa50-4662-8b8c-4698d2f92802" name="Default" comment="" />
+      <created>1562523642367</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562523642367</updated>
+      <workItem from="1562523643924" duration="13185000" />
+      <workItem from="1563022142591" duration="16729000" />
+      <workItem from="1563045816674" duration="1868000" />
+      <workItem from="1563047814702" duration="57000" />
+      <workItem from="1563047894218" duration="2020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33580000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12361419" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30861506" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3273305" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3287483" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.32925585" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" x="0" y="0" width="430" height="917" id="Documentation" order="9" sideWeight="0.33753943" side_tool="true" visible="true" weight="0.29379156" />
+      <window_info active="true" anchor="right" id="SciView" order="10" sideWeight="0.66246057" visible="true" weight="0.29379156" />
+      <window_info anchor="right" id="Maven" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Simulation.java" />
+    <entry file="file://$PROJECT_DIR$/src/Car.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/data/30_10_simulation.xyz" />
+    <entry file="file://$PROJECT_DIR$/data/length_50_lanes_5_cars_30_simulation.xyz" />
+    <entry file="file://$PROJECT_DIR$/data/length_50_lanes_5_cars_250_simulation.xyz" />
+    <entry file="file://$PROJECT_DIR$/data/sample.csv" />
+    <entry file="file://$PROJECT_DIR$/data/length_50_lanes_5_cars_50_simulation.csv" />
+    <entry file="file://$PROJECT_DIR$/data/length_50_lanes_5_cars_50_maxvelocity_10_simulation.csv" />
+    <entry file="file://$PROJECT_DIR$/data/cars_150_maxvel_6_brakeprob_0.2_lanechangeprob_0.5_simulation.csv" />
+    <entry file="file://$PROJECT_DIR$/src/simulation/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analisis/fundamental.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Automaton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Analisis/velocity_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Cell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SS-TpFinal</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
