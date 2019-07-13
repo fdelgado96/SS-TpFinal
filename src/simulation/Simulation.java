@@ -28,8 +28,8 @@ public class Simulation {
         initFreeway();
         initCarsInFreeway();
 
-        PrintWriter writer = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_simulation.xyz");
-        PrintWriter csvWriter = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_simulation.csv");
+        PrintWriter writer = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_maxvelocity_" + maxVelocity + "_simulation.xyz");
+        PrintWriter csvWriter = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_maxvelocity_" + maxVelocity + "_simulation.csv");
         csvWriter.println("timestep,id,lane,lane_position,velocity");
         writeCSV(csvWriter);
 
