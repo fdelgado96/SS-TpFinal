@@ -11,6 +11,14 @@ public class Cell {
         this.car = car;
     }
 
+    public boolean hasCar() {
+        return car != null;
+    }
+
+    public void removeCar() {
+        car = null;
+    }
+
     public Car getCar() {
         return car;
     }
