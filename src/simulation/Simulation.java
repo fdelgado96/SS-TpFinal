@@ -28,7 +28,11 @@ public class Simulation {
         initFreeway();
         initCarsInFreeway();
 
-        PrintWriter writer = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_simulation.xyz");
+        PrintWriter writer = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_maxvelocity_" + maxVelocity + "_simulation.xyz");
+        PrintWriter csvWriter = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_maxvelocity_" + maxVelocity + "_simulation.csv");
+        csvWriter.println("timestep,id,lane,lane_position,velocity");
+        writeCSV(csvWriter);
+
         long now = System.currentTimeMillis();
         while(simulationTime < maxTime) {
 
@@ -52,10 +56,12 @@ public class Simulation {
 
             simulationTime++;
             writeState(writer);
+            writeCSV(csvWriter);
         }
         long after = System.currentTimeMillis();
         System.out.println("ElapsedTime: " + (after - now));
         writer.close();
+        csvWriter.close();
     }
 
     private static void initFreeway() {
@@ -280,6 +286,12 @@ public class Simulation {
         writer.println(String.format(Locale.ENGLISH, "-2 %d %d 0 0.0001", freewayLanes , freewayLength ));
         IntStream.range(0, cars.length).forEach(i -> {
             writer.println(cars[i]);
+        });
+    }
+
+    private static void writeCSV(PrintWriter writer) {
+        IntStream.range(0, cars.length).forEach(i -> {
+            writer.println(simulationTime + "," + cars[i].toCSVString());
         });
     }
 }
