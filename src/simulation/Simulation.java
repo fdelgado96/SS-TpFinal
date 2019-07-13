@@ -9,27 +9,27 @@ import java.util.stream.IntStream;
 
 public class Simulation {
 
-    private static int nCars = 50;
-    private static int freewayLength = 50;
+    private static int nCars = 1000;
+    private static int freewayLength = 666;
     private static int freewayLanes = 5;
     private static int initialVelocity = 0;
-    private static int maxVelocity = 10;
-    private static double brakingProbability = 0.1;
-    private static double considerLaneChangeProbability = 0.2;
+    private static int maxVelocity = 6;
+    private static double brakingProbability = 0.2;
+    private static double considerLaneChangeProbability = 0.5;
 
     private static Car[] cars;
     private static Cell[][] freeway;
 
     private static int simulationTime = 0;
-    private static int maxTime = 100;
+    private static int maxTime = 3600;
 
 
     public static void main(String args[]) throws Exception{
         initFreeway();
         initCarsInFreeway();
 
-        PrintWriter writer = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_maxvelocity_" + maxVelocity + "_simulation.xyz");
-        PrintWriter csvWriter = new PrintWriter("data/length_" + freewayLength + "_lanes_" + freewayLanes + "_cars_" + nCars + "_maxvelocity_" + maxVelocity + "_simulation.csv");
+        PrintWriter writer = new PrintWriter("data/cars_" + nCars + "_maxvel_" + maxVelocity + "_brakeprob_" + brakingProbability + "_lanechangeprob_" + considerLaneChangeProbability +  "_simulation.xyz");
+        PrintWriter csvWriter = new PrintWriter("data/cars_" + nCars + "_maxvel_" + maxVelocity + "_brakeprob_" + brakingProbability + "_lanechangeprob_" + considerLaneChangeProbability +  "_simulation.csv");
         csvWriter.println("timestep,id,lane,lane_position,velocity");
         writeCSV(csvWriter);
 
